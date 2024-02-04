@@ -1,3 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   background-color: white !important;
+}
+
+input:focus {
+  text-decoration: none;
+  outline: none !important;
 }
