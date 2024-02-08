@@ -6,6 +6,14 @@
   background-color: white !important;
 }
 
+.navbar_text {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.desc_text {
+  font-family: "Montserrat", sans-serif;
+}
+
 input:focus {
   text-decoration: none;
   outline: none !important;
