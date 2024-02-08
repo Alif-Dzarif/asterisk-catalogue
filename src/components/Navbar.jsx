@@ -13,11 +13,11 @@ export default function Navbar() {
 
   return (
     <div className='px-7 pt-5 max-h-screen overflow-hidden'>
-      <div className='p-5 grid grid-cols-3' style={{ backgroundImage: `url(${navBarBg})` }}>
+      <div className='p-3 grid grid-cols-3' style={{ backgroundImage: `url(${navBarBg})` }}>
         <div>
           <div className='col-span-1'>
             <a href="/">
-              <img src={navbarIcon} alt="icon" className='w-7' />
+              <img src={navbarIcon} alt="icon" className='w-8' />
             </a>
           </div>
         </div>
