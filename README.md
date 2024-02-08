@@ -1,4 +1,4 @@
-# Store Catalog
+# Asterisk Catalogue
 
 ```bash
 npm i 
