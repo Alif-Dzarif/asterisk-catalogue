@@ -18,3 +18,8 @@ input:focus {
   text-decoration: none;
   outline: none !important;
 }
+
+.dashboard_img {
+  transition: transform 0.2s linear;
+  cursor: pointer;
+}

@@ -1,14 +1,14 @@
 import React from 'react'
 import { Outlet, useNavigate } from 'react-router-dom'
 import navBarBg from '../assets/TopBar.png';
-import navbarIcon from '../assets/AsteriskIcon.png';
+import navbarIcon from '../assets/AsteriskLogo.png';
 import glassIcon from '../assets/glass.png';
 
 export default function Navbar() {
   const navigate = useNavigate();
 
   const navigateByCategory = (cat) => {
-    navigate('/category/' + cat)
+    navigate('/' + cat)
   }
 
   return (
@@ -23,7 +23,7 @@ export default function Navbar() {
         </div>
         <div className='col-span-1 flex justify-center gap-10 text-2xl text-white navbar_text'>
           <div>
-            <span onClick={() => navigateByCategory('shirt')} className='cursor-pointer hover:text-gray-200 tracking-widest'>SHIRT</span>
+            <span onClick={() => navigateByCategory('jersey')} className='cursor-pointer hover:text-gray-200 tracking-widest'>JERSEY</span>
           </div>
           <div>
             <span onClick={() => navigateByCategory('cap')} className='cursor-pointer hover:text-gray-200 tracking-widest'>CAP</span>
