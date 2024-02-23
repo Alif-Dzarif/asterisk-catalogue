@@ -30,13 +30,13 @@ export default function Dashboard() {
       </div>
       <div className='flex flex-row w-full py-20'>
         <div className='col-span-1 flex justify-center transition-all'>
-          <img src={jersey} alt="jersey" className='w-[80%] hover:scale-125 dashboard_img grayscale hover:grayscale-0 transition-colors' onClick={() => gotoNav('jersey')} />
+          <img src={jersey} alt="jersey" className='w-[80%] hover:scale-125 dashboard_img' onClick={() => gotoNav('jersey')} />
         </div>
         <div className='col-span-1 flex justify-center transition-all'>
-          <img src={cap} alt="cap" className='w-[80%] hover:scale-125 dashboard_img grayscale hover:grayscale-0 transition-colors' onClick={() => gotoNav('cap')} />
+          <img src={cap} alt="cap" className='w-[80%] hover:scale-125 dashboard_img' onClick={() => gotoNav('cap')} />
         </div>
         <div className='col-span-1 flex justify-center transition-all'>
-          <img src={shoes} alt="shoes" className='w-[80%] hover:scale-125 dashboard_img grayscale hover:grayscale-0 transition-colors' onClick={() => gotoNav('shoes')} />
+          <img src={shoes} alt="shoes" className='w-[80%] hover:scale-125 dashboard_img' onClick={() => gotoNav('shoes')} />
         </div>
       </div>
     </motion.div>
