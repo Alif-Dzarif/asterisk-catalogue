@@ -28,7 +28,7 @@ export default function Dashboard() {
       <div className='flex justify-center'>
         <img src={asteriskIcon2} alt="icon" className='w-20' />
       </div>
-      <div className='flex flex-row w-full py-20'>
+      <div className='flex flex-row w-full py-20 justify-center'>
         <div className='col-span-1 flex justify-center transition-all'>
           <img src={jersey} alt="jersey" className='w-[80%] hover:scale-125 dashboard_img' onClick={() => gotoNav('jersey')} />
         </div>

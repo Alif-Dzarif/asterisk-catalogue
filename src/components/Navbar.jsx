@@ -32,10 +32,9 @@ export default function Navbar() {
             <span onClick={() => navigateByCategory('shoes')} className='cursor-pointer hover:text-gray-200 tracking-widest'>SHOES</span>
           </div>
         </div>
-        <div className='flex justify-end'>
-          <div className='inline-block relative'>
-            <input disabled type="text" className='py-1 px-9 max-w-52 bg-[#D9D9D9] placeholder:text-black placeholder:font-normal' placeholder='Search' />
-            <img src={glassIcon} alt="glass" className='w-5 absolute left-1 top-[0.30rem]' />
+        <div className='flex justify-end text-2xl text-white navbar_text px-16'>
+          <div>
+            <span onClick={() => navigateByCategory('about')} className='cursor-pointer hover:text-gray-200 tracking-widest'>ABOUT</span>
           </div>
         </div>
       </div>

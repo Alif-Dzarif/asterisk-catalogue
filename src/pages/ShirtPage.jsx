@@ -34,9 +34,6 @@ export default function ShirtPage() {
             yang
             begitu nyaman saat bermain”
           </p>
-          <p className='not-italic'>
-            Nama dan Nomor bisa dicustom
-          </p>
         </div>
       </motion.div>
       <motion.div

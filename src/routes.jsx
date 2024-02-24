@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import CapsPage from "./pages/CapsPage";
 import ShirtPage from "./pages/ShirtPage";
 import ShoesPage from "./pages/ShoesPage";
+import AboutPage from "./pages/AboutPage";
 
 const routes = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const routes = createBrowserRouter([
       {
         path: '/shoes',
         element: <ShoesPage />
+      },
+      {
+        path: '/about',
+        element: <AboutPage />
       }
     ]
   }

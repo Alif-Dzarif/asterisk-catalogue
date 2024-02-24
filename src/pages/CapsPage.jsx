@@ -32,20 +32,12 @@ export default function CapsPage() {
         <h1 className='text-3xl font-semibold mb-10 desc_text'>Asterisk Cap</h1>
         <div className='px-28 text-xl font-light italic desc_text'>
           <p className="mb-5">
-            “Satu-satunya Jersey yang Konsepnya
-            Bercampur antara Sport dan Astronomi
-            Menjadikan bermain Baseball seperti
-            berada di luar Angkasa
+            “Topi dengan Kualitas tinggi ini
+            akan melindungi mata anda dari sinar matahari
+            saat sedang melakuakan olahraga di pagi/sore hari,
           </p>
           <p className=' mb-5'>
-            Dengan bahan berkualitas tinggi,
-            tentu-
-            nya anda akan mendapatkan feel
-            yang
-            begitu nyaman saat bermain”
-          </p>
-          <p className='not-italic'>
-            Nama dan Nomor bisa dicustom
+            dengan Style Baseball, sudah pasti akan fit disemua kepala”
           </p>
         </div>
       </motion.div>
