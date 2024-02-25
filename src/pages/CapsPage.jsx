@@ -20,14 +20,14 @@ export default function CapsPage() {
         transition={{ duration: 1 }}
         className='cols-span-1 px-5 py-5 w-full flex gap-10 justify-center'
       >
-        <img src={capsPreview} alt="caps-preview" />
+        <img src={capsPreview} alt="caps-preview" className='w-[44rem]' />
       </motion.div>
       <motion.div
         initial={{ y: 2500 }}
         animate={{ y: 0 }}
         exit={{ y: 2500 }}
         transition={{ duration: 2 }}
-        className='col-span-1 text-center w-full py-10 px-28'
+        className='col-span-1 text-center w-full py-20 px-28'
       >
         <h1 className='text-3xl font-semibold mb-10 desc_text'>Asterisk Cap</h1>
         <div className='px-28 text-xl font-light italic desc_text'>
